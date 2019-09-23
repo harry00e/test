@@ -1,0 +1,46 @@
+/*
+CSS-Tricks Example
+by Chris Coyier
+http://css-tricks.com
+*/
+
+
+#page-wrap { width: 100%; padding: 0; overflow: hidden; }
+
+.info-col { float: left; width: 20%;  padding: 0; }
+.info-col h2 { text-align: center; font-weight: normal; padding: 25px 0; }
+
+.image { height: 250px; text-indent: -9999px; display: block; border-right: 1px solid black; background-size: cover; }
+
+.img1 { background: url('../../../images/racing/racing1.jpg') center center; }
+.img2 { background: url('../../../images/racing/racing2.jpg') center center; }
+.img3 { background: url('../../../images/racing/racing3.jpg') center center; }
+.img4 { background: url('../../../images/racing/racing4.jpg') center center; }
+.img5 { background: url('../../../images/racing/racing5.jpg') center center; }
+
+dt { background: #902918; color: white; padding: 5px; border-bottom: 1px solid black; border-right: 1px solid black; }
+dd { background: #b44835; color: white; padding: 10px; border-right: 1px solid black; }
+
+dt:nth-of-type(1) { background: #902918; }
+dd:nth-of-type(1) { background: #b44835; }
+
+dt:nth-of-type(2) { background: #cc5e29; }
+dd:nth-of-type(2) { background: #ff7d3e; }
+
+dt:nth-of-type(3) { background: #c17f1d; }
+dd:nth-of-type(3) { background: #ffb03b; }
+
+dt:nth-of-type(4) { background: #ad8938; }
+dd:nth-of-type(4) { background: #c2a25c; }
+
+dt:nth-of-type(5) { background: #3e3022; }
+dd:nth-of-type(5) { background: #4c443c; }
+
+dt:nth-of-type(6) { background: #45503c; }
+dd:nth-of-type(6) { background: #656b60; }
+
+.curCol { z-index: 1; position: relative;
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,1); 
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,1);
+  box-shadow: 0 0 10px rgba(0,0,0,1); }
+

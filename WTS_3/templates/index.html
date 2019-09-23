@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+{% load staticfiles %}
+  <head>
+    <!-- meta:vp[TAB] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- 外部資源 -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Noto+Sans+TC|Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'font-awesome-4.7.0/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/w3.css' %}">
+    <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+    <script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+
+    <!--  slick plugin start  -->
+    <link rel="stylesheet" href="{% static 'js/slick-1.8.1/slick/slick.css' %}">
+    <link rel="stylesheet" href="{% static 'js/slick-1.8.1/slick/slick-theme.css' %}">
+    <script src="{% static 'js/slick-1.8.1/slick/slick.min.js' %}"></script>
+    <!--  slick plugin end  -->
+
+    <!-- 以下自行設計的 -->
+    <link rel="stylesheet" href="{% static 'css/layout.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <script src="{% static 'js/loadFile.js' %}"></script>
+    <script src="{% static 'js/index.js' %}"></script>
+
+  </head>
+  <body>
+
+    <!-- header 區域 ================================================================ -->
+    <header class="w3-top">
+      <!-- load header.html -->
+    </header>
+
+    <!-- #main 中央內容區域 =============================================================== -->
+    <div id="main">
+
+      <!--  slick plugin start   -->
+      <div class="TS_slider">
+        <div><img src="{% static 'images/index/slider_bg1.jpg' %}" alt=""></div>
+        <div><img src="{% static 'images/index/slider_bg2.jpg' %}" alt=""></div>
+        <div><img src="{% static 'images/index/slider_bg3.jpg' %}" alt=""></div>
+      </div>
+      <!--  slick plugin end   -->
+
+      <div class="container">
+        <div class="w3-threequarter t-p1rem">
+          <div class="t-p1rem w3-white w3-round">
+            <!-- 第一個tabs區域 start -->
+            <div id="tabs1" class="tabs">
+              <a class="note" href="https://autos.udn.com/autos/index" target="_blank">資料來源：UDN發燒車訊</a>
+              <ul>
+                <li class="current">最新車聞</li>
+                <li>試駕精選</li>
+                <li>國際車訊</li>
+                <li>中古車訊</li>
+              </ul>
+              <div>
+                <div class="w3-row">
+                  <figure class="w3-col s6 m3 w3-center">
+                    <a href="https://autos.udn.com/autos/story/8324/2286150" target="_blank"><img src="{% static 'images/index/tabs/1-1.jpg' %}" alt=""></a><figcaption>新動力單元迎戰F1賽季 HONDA</figcaption></figure>
+                  <figure class="w3-col s6 m3 w3-center">
+                    <a href="https://autos.udn.com/autos/story/7825/2356443" target="_blank"><img src="{% static 'images/index/tabs/1-2.jpg' %}" alt=""></a><figcaption>Skoda Superb新增超級動力</figcaption></figure>
+                  <figure class="w3-col s6 m3 w3-center">
+                    <a href="https://autos.udn.com/autos/story/7825/2364150" target="_blank"><img src="{% static 'images/index/tabs/1-3.jpg' %}" alt=""></a><figcaption>動感跑旅將襲台 BMW5系列Touring預售開跑</figcaption></figure>
+                  <figure class="w3-col s6 m3 w3-center">
+                    <a href="https://autos.udn.com/autos/story/7825/2363239" target="_blank"><img src="{% static 'images/index/tabs/1-4.jpg' %}" alt=""></a><figcaption>限量神祕車款現身！</figcaption></figure>
+                </div>
+                <div class="w3-row">
+                  <figure class="w3-col s6 m3 w3-center"><a href="https://autos.udn.com/autos/story/7828/2352381" target="_blank"><img src="{% static 'images/index/tabs/2-1.jpg' %}" alt=""></a><figcaption>安靜舒適動力足 SUPER ELANTRA 2.0菁英版試駕</figcaption></figure>
+                  <figure class="w3-col s6 m3 w3-center"><a href="https://autos.udn.com/autos/story/7828/2353895" target="_blank"><img src="{% static 'images/index/tabs/2-2.jpg' %}" alt=""></a><figcaption>脫胎換骨自成一格 Grand Lancer上市前試駕</figcaption></figure>
+                  <figure class="w3-col s6 m3 w3-center"><a href="https://autos.udn.com/autos/story/7828/2344195" target="_blank"><img src="{% static 'images/index/tabs/2-3.jpg' %}" alt=""></a><figcaption>G世代「5」力全開 BMW 530i Luxury Line試駕</figcaption></figure>
+                  <figure class="w3-col s6 m3 w3-center"><a href="https://autos.udn.com/autos/story/7821/2363638" target="_blank"><img src="{% static 'images/index/tabs/2-4.jpg' %}" alt=""></a><figcaption>Superb SportLine試駕 馬力增更動感</figcaption></figure>
+                </div>
+                <div class="w3-row">
+                  <figure class="w3-col s6 m3 w3-center"><a href="https://autos.udn.com/autos/story/7826/2360627" target="_blank"><img src="{% static 'images/index/tabs/3-1.jpg' %}" alt=""></a><figcaption>Tesla 籌措鉅額資金 一切都是為了它！</figcaption></figure>
+                  <figure class="w3-col s6 m3 w3-center"><a href="https://autos.udn.com/autos/story/7823/2364442" target="_blank"><img src="{% static 'images/index/tabs/3-2.jpg' %}" alt=""></a><figcaption>賣輸Benz BMW推史上最大的攻勢</figcaption></figure>
+                  <figure class="w3-col s6 m3 w3-center"><a href="https://autos.udn.com/autos/story/7826/2361773" target="_blank"><img src="{% static 'images/index/tabs/3-3.jpg' %}" alt=""></a><figcaption>4代Mazda MX-5終於推出硬車頂了 但無法上路！</figcaption></figure>
+                  <figure class="w3-col s6 m3 w3-center"><a href="https://autos.udn.com/autos/story/7826/2361912" target="_blank"><img src="{% static 'images/index/tabs/3-4.jpg' %}" alt=""></a><figcaption>Ssangyong雙龍全新旗艦休旅車 年底上市</figcaption></figure>
+                </div>
+                <div class="w3-row">
+                  <figure class="w3-col s6 m3 w3-center"><a href="https://autos.udn.com/autos/story/7831/2113261" target="_blank"><img src="{% static 'images/index/tabs/4-1.jpg' %}" alt=""></a><figcaption>奧迪嚴選中古車 南屯展示中心正式啟用</figcaption></figure>
+                  <figure class="w3-col s6 m3 w3-center"><a href="https://autos.udn.com/autos/story/7831/1919120" target="_blank"><img src="{% static 'images/index/tabs/4-2.jpg' %}" alt=""></a><figcaption>HOT大聯盟 獲首屆認證中古車信譽品牌金獎</figcaption></figure>
+                  <figure class="w3-col s6 m3 w3-center"><a href="https://autos.udn.com/autos/story/7831/1428704" target="_blank"><img src="{% static 'images/index/tabs/4-3.jpg' %}" alt=""></a><figcaption>年前換優質中古車 Audi Approved :plus嚴選中古車元月加碼優惠</figcaption></figure>
+                  <figure class="w3-col s6 m3 w3-center"><a href="https://autos.udn.com/autos/story/7831/1312477" target="_blank"><img src="{% static 'images/index/tabs/4-4.jpg' %}" alt=""></a><figcaption>Das WeltAuto. 福斯原廠認證中古車正式營運</figcaption></figure>
+                </div>
+              </div>
+            </div>
+            <!-- 第一個tabs區域 end -->
+
+            <!-- 第二個tabs區域 start -->
+            <div id="tabs2" class="tabs">
+              <ul>
+                <li>試駕精選1</li>
+                <li class="current">試駕精選2</li>
+                <li>試駕精選3</li>
+              </ul>
+              <div>
+                <div class="w3-row">
+                  <img src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2017/08/13/99/3933901.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=1050">
+                  <div class="date">2017-08-31 15:50</div>
+                  <h4>
+                    <a href="/autos/story/7828/2640004">增加競爭籌碼 2018年式Ford Mondeo EcoBoost 240試駕</a>
+                  </h4>
+                  <p>有別於過往市場主流的地位，近年來台灣市場四門房車的市占率逐漸遭休旅車瓜分，更早來說，中大型四門房車就早已經透露了這樣的趨勢，銷售數字逐年下滑，國產車業者在生產成本考量下也接連退守，由原先的國產轉為進口。</p>
+                </div>
+                <div>
+                  <img src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2017/08/21/99/3897592.jpg&amp;s=Y&amp;x=66&amp;y=78&amp;sw=1030&amp;sh=687">
+                  <div class="date">2017-08-31 15:50</div>
+                  <h4>
+                    <a href="/autos/story/7828/2654356">Audi Q2跨界有型 客製打造獨有個性</a>
+                  </h4>
+                  <p>跨界是一種車界時尚，在這個時尚舞台裡當然少不了Audi。全新上市的Audi Q2突破A系列與Q系列的界線，在外貌上自創一格，緊抓住年輕世代的口味；功能上兼具操控樂趣及數位娛樂，不失豪華車品牌該有的奢華元素。</p>
+                </div>
+                <div>
+                  <img src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2017/07/14/99/3756674.jpg&amp;s=Y&amp;x=212&amp;y=144&amp;sw=978&amp;sh=652">
+                  <div class="date">2017-08-31 15:50</div>
+                  <h4>
+                    <a href="/autos/story/7828/2584260">不只好看更是有料 VOLVO V90 / V90 Cross Country試駕</a>
+                  </h4>
+                  <p>近年來休旅車熱潮狂掃全球市場，台灣自然也不例外，成為成長最快速的級距，但畢竟不是人人都喜歡開底盤及重心較高的休旅車，歐洲市場相當常見的旅行車，近年在台灣市場也逐步獲得青睞，成為台灣車主新寵。</p>
+                </div>
+              </div>
+            </div>
+            <!-- 第二個tabs區域 end -->
+          </div>
+        </div>
+
+        <div class="w3-quarter t-p1rem">
+          <div class="t-p1rem w3-black w3-round">
+            <!--  slick plugin start   -->
+            <div class="news_slider">
+              <div><img src="{% static 'images/carousel/car1.jpg' %}" alt=""><span>1</span><p>23萬美元落槌 福特《Ford Apollo Edition Mustang》順利售出 23萬美元落槌</p></div>
+              <div><img src="{% static 'images/carousel/car2.jpg' %}" alt=""><span>2</span><p>23萬美元落槌 福特《Ford Apollo Edition Mustang》順利售出 23萬美元落槌</p></div>
+              <div><img src="{% static 'images/carousel/car3.jpg' %}" alt=""><span>3</span><p>23萬美元落槌 福特《Ford Apollo Edition Mustang》順利售出 23萬美元落槌</p></div>
+              <div><img src="{% static 'images/carousel/car4.jpg' %}" alt=""><span>4</span><p>23萬美元落槌 福特《Ford Apollo Edition Mustang》順利售出 23萬美元落槌</p></div>
+              <div><img src="{% static 'images/carousel/car5.jpg' %}" alt=""><span>5</span><p>23萬美元落槌 福特《Ford Apollo Edition Mustang》順利售出 23萬美元落槌</p></div>
+            </div>
+            <!--  slick plugin end   -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- footer 區域 ================================================================ -->
+    <footer class="w3-center w3-small">
+      <!-- load footer.html -->
+    </footer>
+
+  </body>
+</html>

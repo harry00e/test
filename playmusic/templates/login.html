@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}HTTP Protcol POST Test{% endblock %}
+ {% block head %}
+    <link rel ="stylesheet" href= " {%  static  'css/login.css' %} " >
+ {%  endblock %}
+
+   {% block content %}
+     <div class="container login">
+      <form name="login" action="/login/" method="post">
+           {% csrf_token %}
+           {% if logout == True %}
+                  <div><a href="/logout/">登出系統</a></div>
+	       {% else %}
+               <div class="column" id="main">
+                 <fieldset>
+                    <legend>Login</legend>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" />
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="password" name="password" /><br>
+                    <input type="checkbox" id="showPwd">
+                    <label for="showPwd">Show Password</label>
+                    <input type="checkbox" id="reGister" name="register" />
+                    <label for="reGister">Register</label>
+                    <input type="submit" value="Login" id="submit"/>
+                 </fieldset>
+               </div>
+         {% endif %}
+      </form>
+      <br>
+         <span style="color:red" data-status={{status}} hidden>{{message}}</span>
+     </div><!-- .container -->
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js"> </script>
+    <script src = " {% static 'js/input-type.js' %}" > </script>
+{% endblock %}

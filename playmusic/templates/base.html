@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+  {% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}This is Base{% endblock %} </title>
+{#    {% load bootstrap3 %}#}
+{#    {% bootstrap_css %}#}
+{#    {% bootstrap_javascript %}#}
+
+    <script src="{% static 'js/jquery-3.4.1.js' %}"></script>
+    {% block head %}{%  endblock %}
+</head>
+<body>
+{% block content %}
+<div></div>
+{% endblock %}
+</body>
+</html>

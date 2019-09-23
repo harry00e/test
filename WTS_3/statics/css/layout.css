@@ -1,0 +1,67 @@
+/*
+* Google Web font
+* font-family: 'Noto Sans TC', sans-serif;  中文黑體
+* font-family: 'Righteous', cursive;    英文方圓體
+* font-family: 'Lobster', cursive;      英文草寫體
+* font-family: 'Righteous', 'Noto Sans TC', sans-serif;  英文方圓體=>中文黑體=>電腦系統預設無襯線字體
+*/
+/* reset & document all default ================================================ */
+* { margin: 0; padding: 0; }
+body { background-color: #333; color: #fff; }
+h1,h2,h3,h4,h5,h6 { margin: 0; font-family: 'Righteous', 'Noto Sans TC', sans-serif; }
+ul,ol,li { list-style: none; }
+
+.container { max-width: 1200px; margin: 0 auto; position: relative; overflow: hidden; }
+.t-p1rem { padding: 1rem; }
+
+/* header area & 相關選單按鈕 ==================================================== */
+header { background-color: #333; box-shadow: 0 5px 5px rgba(0, 0, 0, 0.6);  }
+.w3-top, .w3-bottom { z-index: 9999; }
+header .container { height: 80px; }
+header .logo { position: absolute; left: 0; bottom: 0; width: 22%; max-width: 275px; height: auto; }
+@media( max-width: 991px){ header .logo { width: 30%; } }
+@media( max-width: 600px){ header .logo { width: 45%; } }
+
+/* nav area */
+header nav { text-align: center; padding-top: 30px; }
+header nav .w3-button { color: #fff; padding: 8px 12px;
+  font-family: 'Righteous', 'Noto Sans TC', sans-serif; font-size: 16px; }
+header nav .w3-button:hover { background-color: darkred !important; color: #fff !important; }
+
+#showMenu { border-radius: 50%; }
+
+/* share btn area */
+.shareBtnArea { position: absolute; right: 0; top: 38px; }
+.shareBtnArea a { width: 28px; height: 28px; display: inline-block;
+  background-image: url(../images/shareBtnfooter.png); margin-left: 2px; }
+
+.shareBtnArea a:nth-of-type(1) { background-position: 0 0; }
+.shareBtnArea a:nth-of-type(2) { background-position: -28px 0; }
+.shareBtnArea a:nth-of-type(3) { background-position: -56px 0; }
+.shareBtnArea a:nth-of-type(4) { background-position: -84px 0; }
+.shareBtnArea a:nth-of-type(5) { background-position: -112px 0; }
+
+.shareBtnArea a:nth-of-type(1):hover { background-position: 0 -28px; }
+.shareBtnArea a:nth-of-type(2):hover { background-position: -28px -28px; }
+.shareBtnArea a:nth-of-type(3):hover { background-position: -56px -28px; }
+.shareBtnArea a:nth-of-type(4):hover { background-position: -84px -28px; }
+.shareBtnArea a:nth-of-type(5):hover { background-position: -112px -28px; }
+
+/* #main area ================================================================== */
+#main { background-image: url(../images/dark42.png); min-height: 300px; padding: 100px 0 40px 0; overflow: hidden; }
+form {
+  font-family: trocchi, georgia, times, serif;
+  max-width: 1200px;
+  margin: 0 auto 0 5em;}
+input[type="submit"], #submit {
+  background-color: #000;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  float: auto;
+  margin-left:26.5em;
+  font-family: trocchi, georgia, times, serif;
+  font-size: 1.2em;
+  margin-right: 1.4em;}
+
+footer { background-color: #333; color: #e3e3e3; padding: 1em; box-shadow: 0 -3px 3px #000; }

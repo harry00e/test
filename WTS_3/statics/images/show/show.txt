@@ -1,0 +1,67 @@
+﻿<div id="container">
+      <div class="item"> <a href="../images/show-L/car1.jpg"><img src="../images/show/car1.jpg"></a>
+        <h2>堪稱世界級的《德國DTM房車賽》驚爆出Audi車隊因刻意衝撞而遭審判</h2>
+        <p>位居全球房車賽事領先地位的《德國DTM房車賽》，一直以來被車迷們堪稱為披著房車外型的F1賽車，不僅是許多車廠爭先恐後參予的世界級賽事之一，且精彩程度不輸給 </p>
+      </div>
+      <div class="item"> <a href="../images/show-L/car2.jpg"><img src="../images/show/car2.jpg"></a>
+        <h2>2017年瞄準GT3或GTE賽事 《Acura NSX》規劃將推出工廠賽車</h2>
+        <p>隨著Honda近年來再次積極投入賽車運動，對於日漸興盛的GT賽事，包括FIA GT3與LM GTE等，Honda似乎也展現了濃厚的興趣。Honda性能開發部 (Honda Performance Deve...) </p>
+      </div>
+      <div class="item"> <a href="../images/show-L/car3.jpg"><img src="../images/show/car3.jpg"></a>
+        <h2>《Jaguar Land Rover》無奈被迫接受山寨品 中國版Evoque生存危機緩解？</h2>
+        <p>各位車迷猜猜看上圖中是哪一款車？相信很多眼尖的讀者一眼就可以大聲喊出，這是Range Rover Evoque。但可惜猜錯了，圖中那輛車其實是來自中國汽車品牌陸風推出的...</p>
+      </div>
+      <div class="item"> <a href="../images/show-L/car4.jpg"><img src="../images/show/car4.jpg"></a>
+        <h2>速霸陸《Subaru WRX STi》東京車展超搶眼　Varis套件突顯戰鬥氛圍</h2>
+        <p>今年的東京車展上，雖然有許多車廠及改裝品牌都趁機大展拳腳，但是部分展示多半沒什麼創新，似乎顯得格外不夠吸引人。但是正當有點小失落之餘，眼角瞄到了一輛顯眼又具戰鬥氣息的車款，不僅採用原廠迷人的寶藍色塗裝，且搭配大量的碳纖維材質製品與紅色線條來點綴，讓許多車迷和媒體都停下腳步欣賞它的身影，這輛就是由改裝廠Varis所打造的全新《Subaru WRX STi》車款。</p>
+        <p>被該廠取名為「Subaru WRX STi VAB」，雖然絕大部分的外觀上所變動之處不多，但是在前後保桿及兩側側裙的地方，Varis配置了不少好料！不但大量採用了高檔的碳纖維材質外，為了擔心車身降低後的下緣易摩擦地面，因此兩片式的前保桿導流最下端則為FRP（玻璃纖維）所製，而同樣使用碳纖維的散熱
+          型引擎蓋共有三個開孔，除了利用撞風效應提供給Intercooler降溫的大進氣口外，兩側還有為了排出引擎室內高溫的導風孔，達到視覺與實用並重的進化改裝！</p>
+      </div>
+      <div class="item"> <a href="../images/show-L/car5.jpg"><img src="../images/show/car5.jpg"></a>
+        <h2>《Zenvo ST1》為鋪路而準備 丹麥超跑現身上海車展</h2>
+        <p>就像是招蜂引蝶一樣，近幾年快速發展的中國經濟起源於龐大的內需市場，讓各國廠商紛紛放下身段前來投資甚至設廠，另一方面也因為經濟的快速成長帶動了個人所得的提高，造就了多金的層峰買家，即使面對超跑這種高單價奢侈品也毫不手軟。為了搶食這塊市場，超跑品牌在中國已經如數家珍，不過今年即將會再出現另一位競爭者，那就是來自丹麥的手工超跑車廠「Zenvo」。</p>
+        <p>就在上海國際車展上，這家丹麥車廠展出了自家超跑《Zenvo ST1》，這也是該廠目前唯一的產品，最早問世於2008年，這次展出的則是最新的2015年式車款，而為了表達對中國市場的重視，官網甚至還同步釋出最新的《Zenvo ST1》廠圖，拍攝背景更選在上海靜安區的某處陸橋下，此舉幾乎可以確定就是為未來鋪路市場而準備。 </p>
+      </div>
+      <div class="item"> <a href="../images/show-L/car6.jpg"><img src="../images/show/car6.jpg"></a>
+        <h2>福特《Ford Focus》小改款車型上海首發 1.0升三缸動力入列</h2>
+        <p>今年福特在上海車展一連展出多款重量級新車，包括有前陣子北美車展甫發表的Ford GT、日內瓦車展首亮相的新一代Focus RS，以及專為中國市場開發的一款中大型房車Ford Taurus（金牛座），兩款美系大型SUV－Exprorea（探險者）、Tourneo（撼路者），然而這當中最引人期待、也最具參考價值的新車，當屬中國首發、甫進行小改款的第三代《Ford Focus》，改款重點除了換上新世代的馬丁車頭，動力編制上更加入了1.0升渦輪直噴三缸引擎，作為中國消費者的入門新選擇。</p>
+      </div>
+      <div class="item"> <a href="../images/show-L/car7.jpg"><img src="../images/show/car7.jpg"></a>
+        <h2>《Brabus 850 6.0 Biturbo Coupe》新改裝套件曝光 低調狂傲紳士爆發850最大馬力</h2>
+        <p>還記得在2015年的日內瓦車展上，專攻Mercedes-Benz的德國改裝大廠Brabus，以S63 AMG Coupe為基礎推出的《Brabus 850 6.0 Biturbo Coupe》嗎？日內瓦車展這輛擁有850匹馬力的奢華猛獸，除擁有狂暴的性能，金色輕量化鍛造鋁圈、跋扈的前後保桿設計，都是令人留下深刻印象的特點。不過，或許有些車迷認為那樣的設定太誇張，因此Brabus日前發表了《Brabus 850 6.0 Biturbo Coupe》新的改裝套件，使其在散發強悍的性能氣息同時，也可以保留原本的豪華風範。</p>
+      </div>
+      <div class="item"> <a href="../images/show-L/car8.jpg"><img src="../images/show/car8.jpg"></a>
+        <h2>瞄準TCR賽事 《Opel Astra TCR》預告法蘭克福車展亮相</h2>
+        <p>還記得在2015年的日內瓦車展上，專攻Mercedes-Benz的德國改裝大廠Brabus，以S63 AMG Coupe為基礎推出的《Brabus 850 6.0 Biturbo Coupe》嗎？</p>
+      </div>
+      <div class="item"> <a href="../images/show-L/car9.jpg"><img src="../images/show/car9.jpg"></a>
+        <h2>坐擁拉力賽車不是夢想！速霸陸在澳洲限量推出《Subaru WRX STI NR4 Spec》改裝用車</h2>
+        <p>還在看著轉播幻想坐進拉力賽車的快感嗎？或是空有車手身份卻沒有專屬的戰駒？現在或許有機會讓Subaru幫你一償心願！</p>
+        <p>為了吸引更多的賽車愛好者或專業車隊投入WRC2、 ERC2等次級的拉力賽事，Subaru選在澳洲與合作夥伴Possum Bourne Motor Sport (PBMS)聯手，以《Subaru WRX STI》為基礎推出符合2015 FIA NR4技術規範的《WRX STI NR4 Spec》準拉力賽車，並且限量生產，當地售價則從38,000澳幣起跳，約合新台幣87萬左右。</p>
+      </div>
+      <div class="item"> <a href="../images/show-L/car10.jpg"><img src="../images/show/car10.jpg"></a>
+        <h2>新年式本田《Honda Accord Coupe》重裝化身前導車 帥氣現身美國IndyCar賽事</h2>
+        <p>雖然說以進口身份導入國內販售的第九代《Honda Accord》人氣似乎不如以往，但是在美國當地仍是相當獲得消費者的青睞，連續幾年都能攻佔全美銷售排行榜的前五名，就連最近甫發表的2015年式《Honda Accord Coupe》也被自家的HPD性能部門給相中，擔任美國IndyCar賽事的帥氣前導車（Safety Car）。</p>
+      </div>
+      <div class="item"> <a href="../images/show-L/car11.jpg"><img src="../images/show/car11.jpg"></a>
+        <h2>新一代《Acura NSX》只透露排氣量 性能數據還是沒公佈</h2>
+        <p>之前在北美車展上宣布正式量產的新一代本田超跑《Acura NSX》，當時本田官方並沒有明確指出引擎的排氣量，僅透露搭載的是V6雙渦輪增壓引擎與油電四驅規格。然而最近在美國舉辦的2015年SAE（Society of Automotive Engineers）汽車工程師協會上，本田終於透露新一代《Acura NSX》的詳細排氣量，將設定在3.5升，而不是過去媒體臆測的4.0升。</p>
+      </div>
+      <div class="item"> <a href="../images/show-L/car12.jpg"><img src="../images/show/car12.jpg"></a>
+        <h2>《Acura》打算推出入門Crossover車型？ 《Honda HR-V》底盤沿用</h2>
+        <p>根據國外媒體透露，Honda American本田美國總部執行副總John Mendel曾表示，目前旗下的高階品牌Acura，正在考慮推出全新的入門級Crossover跨界SUV車型，用以補足目前產品線的缺憾，而這款車型也將會以Honda HR-V的底盤做為基礎進行打造。</p>
+      </div>
+      <div class="item"> <a href="../images/show-L/car13.jpg"><img src="../images/show/car13.jpg"></a>
+        <h2>什麼叫50：50完美配重？就讓馬自達《Mazda MX-5》來證明給你看…</h2>
+        <p>大家都知道一部車的先天操控性要好，除了動力要強底盤不能太差之外，另外也要考量到車體前後的配重平衡，而最完美的前後配重比莫過於50：50，特別是前置引擎後輪驅動的FR車款，如以操控著稱的BMW就是最講究完美配重的車廠，而Honda S2000、Mazda RX-7幾款膾炙人口的跑車也都是將配重設定在驅近50：50的完美比例，當然也少不了這次要介紹的主角Mazda MX-5。</p>
+      </div>
+      <div class="item"> <a href="../images/show-L/car14.jpg"><img src="../images/show/car14.jpg"></a>
+        <h2>寶馬《BMW Z4》2016年式全新車色入選 湛藍Estoril blue更顯動感</h2>
+        <p>自2009年問世至今的E89世代《BMW Z4》，雖然已歷經多年的時間，但產品週期似乎仍未停歇，也仍將繼續在市場上奮戰。日前，BMW依舊為Z4進行產品更新，釋出2016年式Z4的相關訊息，雖然並未顯著地更動Z4的外觀與內裝細節，但在2016年式Z4上，BMW將提供與現行M235i與3 Series M Sport套件中，所提供的Estoril blue金屬色作為新年式 Z4的車色選擇之一。</p>
+      </div>
+      <div class="item"> <a href="../images/show-L/car15.jpg"><img src="../images/show/car15.jpg"></a>
+        <h2>車系陣容再擴大 馬自達《Mazda Mazda3》新增6氣囊尊榮型75.9萬元搶市</h2>
+        <p>現行《Mazda Mazda3》在2014年底上市後便受到許多消費者歡迎，為了提供消費者更多選擇，台灣馬自達汽車不斷調整車系編成陣容，繼2015年初增加69.9萬元的四門版入門車型後，更在今日（8/13）宣布再為Mazda3四門版車型再添加一款尊榮型，建議售價為75.9萬元。</p>
+        <p>新增的四門尊榮型定位在四門豪華型之上，四門尊貴型之下，和接單生產的四門豪華型相比，台灣馬自達將前霧燈、定速系統、6支喇叭、6氣囊、恆溫空調以及7吋MZD Connect中央資訊螢幕等等列為四門尊榮型的標準配備，讓消費者擁有更加舒適便利的行車體驗。</p>
+      </div>
+    </div>

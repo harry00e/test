@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+    <title>{% block title %}Document{% endblock %} </title>
+    <!--  plugin start  -->
+    <!--  plugin end  -->
+
+    <!-- 以下自行設計的 -->
+    {% block head %}
+    <link rel="stylesheet" href="{% static 'css/layout.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <script src="{% static 'js/loadFile.js' %}"></script>
+    {%  endblock %}
+{#  </head>#}
+
+    {% block content %}
+    <!-- #main 中央內容區域 =============================================================== -->
+    <div id="main">
+    <form class="w3-container" action="contact.html" method="post">
+        {% csrf_token %}
+      <br>
+{#      <h4>留言聯絡:</h4>#}
+        <label for="username">姓 名:</label>
+        <input type="text" id="username" name="username" required />
+        <p>
+            <label for="comment">留 言:</label>
+            <br />
+            <textarea name="comment" id="comment" rows="7" cols="70" tabindex="4" ></textarea>
+        </p>
+         <input type="submit" value="送出" id="submit"/>
+    </form>
+         <span style="color:antiquewhite; margin-left:6em; display: inline-block;">{{message}}</span>
+    </div>
+   {% endblock %}
+
+

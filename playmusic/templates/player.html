@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+  {% load staticfiles %}
+{% block title %}Simple music player{% endblock %}
+ {% block head %}
+    <link rel ="stylesheet" href= " {%  static  'css/player.css' %} " >
+{%  endblock %}
+ {% block content %}
+    <audio id="player" controls autoplay autobuffer >
+        <p>What? Your browser doesn't support</p>
+        </audio>
+        <div id="playlist"></div>
+        <BUTTON id  ="refresh" title = "refresh music list!">REFRESH</BUTTON>
+        <BUTTON id  ="btn" title = "skip this song!">SKIP</BUTTON>
+        <div>  <BUTTON id  ="logout" title = "logout!" onclick="javascript:location.href='/logout/'">Logout</BUTTON>
+        </div>
+       <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+       <script src = " {% static 'js/player.js' %}" > </script>
+{% endblock %}
